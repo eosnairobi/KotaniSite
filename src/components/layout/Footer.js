@@ -50,7 +50,7 @@ const Footer = () => {
                     <img src="img/core-img/call.png" alt="" />
                   </div>
                   <p>
-                    Main: +254 702845341 <br /> Office: +254 702845341
+                    Main: +254 702-845-341 <br /> Office: +254 702-845-341
                   </p>
                 </div>
                 <div class="footer-single-contact-info d-flex">
