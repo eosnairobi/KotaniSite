@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class ServiceArea extends Component {
   render() {
     return (
-      <section class="mosh-more-services-area d-sm-flex clearfix">
-        <div class="single-more-service-area">
+      <section className="mosh-more-services-area d-sm-flex clearfix">
+        <div className="single-more-service-area">
           <div
-            class="more-service-content text-center wow fadeInUp"
+            className="more-service-content text-center wow fadeInUp"
             data-wow-delay=".1s"
           >
             <img src="img/core-img/trophy.png" alt="" />
@@ -17,9 +17,9 @@ class ServiceArea extends Component {
             </p>
           </div>
         </div>
-        <div class="single-more-service-area">
+        <div className="single-more-service-area">
           <div
-            class="more-service-content text-center wow fadeInUp"
+            className="more-service-content text-center wow fadeInUp"
             data-wow-delay=".4s"
           >
             <img src="img/core-img/edit.png" alt="" />
@@ -30,9 +30,9 @@ class ServiceArea extends Component {
             </p>
           </div>
         </div>
-        <div class="single-more-service-area">
+        <div className="single-more-service-area">
           <div
-            class="more-service-content text-center wow fadeInUp"
+            className="more-service-content text-center wow fadeInUp"
             data-wow-delay=".7s"
           >
             <img src="img/core-img/video-camera.png" alt="" />
@@ -43,9 +43,9 @@ class ServiceArea extends Component {
             </p>
           </div>
         </div>
-        <div class="single-more-service-area">
+        <div className="single-more-service-area">
           <div
-            class="more-service-content text-center wow fadeInUp"
+            className="more-service-content text-center wow fadeInUp"
             data-wow-delay="1s"
           >
             <img src="img/core-img/presentation.png" alt="" />

@@ -6,22 +6,22 @@ import "./Navigation.css";
 class Navigation extends Component {
   render() {
     return (
-      <header class="header_area clearfix">
-        <div class="container-fluid h-100">
-          <div class="row h-100">
+      <header className="header_area clearfix">
+        <div className="container-fluid h-100">
+          <div className="row h-100">
             {/* <!-- Menu Area Start --> */}
-            <div class="col-12 h-100">
-              <div class="menu_area h-100">
-                <nav class="navbar h-100 navbar-expand-lg align-items-center">
+            <div className="col-12 h-100">
+              <div className="menu_area h-100">
+                <nav className="navbar h-100 navbar-expand-lg align-items-center">
                   {/* <!-- Logo --> */}
-                  <Link class="navbar-brand" to="/">
+                  <Link className="navbar-brand" to="/">
                     {/* <img src="img/core-img/logo.png" alt="logo" /> */}
                     <h3>kotani</h3>
                   </Link>
 
                   {/* <!-- Menu Area --> */}
                   <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
                     data-target="#mosh-navbar"
@@ -29,32 +29,32 @@ class Navigation extends Component {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                   >
-                    <span class="navbar-toggler-icon" />
+                    <span className="navbar-toggler-icon" />
                   </button>
 
                   <div
-                    class="collapse navbar-collapse justify-content-end"
+                    className="collapse navbar-collapse justify-content-end"
                     id="mosh-navbar"
                   >
-                    <ul class="navbar-nav animated" id="nav">
-                      <li class="nav-item active">
-                        <Link class="nav-link" to="/">
+                    <ul className="navbar-nav animated" id="nav">
+                      <li className="nav-item active">
+                        <Link className="nav-link" to="/">
                           Home
                         </Link>
                       </li>
 
-                      <li class="nav-item">
-                        <Link class="nav-link" to="/about">
+                      <li className="nav-item">
+                        <Link className="nav-link" to="/about">
                           About Us
                         </Link>
                       </li>
-                      <li class="nav-item">
-                        <Link class="nav-link" to="/services">
+                      <li className="nav-item">
+                        <Link className="nav-link" to="/services">
                           Services
                         </Link>
                       </li>
-                      <li class="nav-item">
-                        <Link class="nav-link" to="/contact">
+                      <li className="nav-item">
+                        <Link className="nav-link" to="/contact">
                           Contact
                         </Link>
                       </li>
