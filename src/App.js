@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/layout/Header";
 import Home from "./components/home/Home";
+import Footer from "./components/layout/Footer";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <div>
           <Header />
           <Route exact path="/" component={Home} />
+          <Footer />
         </div>
       </Router>
     );
