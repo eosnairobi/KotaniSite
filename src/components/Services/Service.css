@@ -5,6 +5,15 @@
 .mosh-service-slides {
   position: relative;
   z-index: 1;
+  height: 24.4rem;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  transform: translate3d(0px, 0px, 0px);
+  box-sizing: border-box;
+  touch-action: pan-y pinch-zoom;
 }
 
 .single-service-area h2 {
@@ -20,7 +29,6 @@
 .single-service-area:hover h2 {
   color: #4a7aec;
 }
-
 .single-service-area h4 {
   margin-bottom: 20px;
 }

@@ -6,50 +6,50 @@ class ContactPage extends Component {
     return (
       <div>
         <Breadcrumb title="Contact Us" description="Say Hello." />
-        <section class="contact-area section_padding_100">
-          <div class="container">
-            <div class="row">
+        <section className="contact-area section_padding_100">
+          <div className="container">
+            <div className="row">
               {/* <!-- Contact Form Area --> */}
-              <div class="col-12 col-md-8">
-                <div class="contact-form-area">
+              <div className="col-12 col-md-8">
+                <div className="contact-form-area">
                   <h2>Get in touch</h2>
                   <form action="#">
-                    <div class="row">
-                      <div class="col-12 col-md-6">
+                    <div className="row">
+                      <div className="col-12 col-md-6">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           id="name"
                           placeholder="Name"
                         />
                       </div>
-                      <div class="col-12 col-md-6">
+                      <div className="col-12 col-md-6">
                         <input
                           type="email"
-                          class="form-control"
+                          className="form-control"
                           id="email"
                           placeholder="E-mail"
                         />
                       </div>
-                      <div class="col-12">
+                      <div className="col-12">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           id="subject"
                           placeholder="Subject"
                         />
                       </div>
-                      <div class="col-12">
+                      <div className="col-12">
                         <textarea
                           name="message"
-                          class="form-control"
+                          className="form-control"
                           id="message"
                           cols="30"
                           rows="10"
                           placeholder="Message"
                         />
                       </div>
-                      <button class="btn mosh-btn mt-50" type="submit">
+                      <button className="btn mosh-btn mt-50" type="submit">
                         Send Message
                       </button>
                     </div>
@@ -57,49 +57,49 @@ class ContactPage extends Component {
                 </div>
               </div>
               {/* <!-- Contact Information --> */}
-              <div class="col-12 col-md-4">
-                <div class="contact-information">
+              <div className="col-12 col-md-4">
+                <div className="contact-information">
                   <h2>Contact</h2>
-                  <div class="single-contact-info d-flex">
-                    <div class="contact-icon mr-15">
+                  <div className="single-contact-info d-flex">
+                    <div className="contact-icon mr-15">
                       <img src="img/core-img/map.png" alt="" />
                     </div>
                     <p>
                       104 Lower Kabete Rrd, <br /> Nairobi, Kenya
                     </p>
                   </div>
-                  <div class="single-contact-info d-flex">
-                    <div class="contact-icon mr-15">
+                  <div className="single-contact-info d-flex">
+                    <div className="contact-icon mr-15">
                       <img src="img/core-img/call.png" alt="" />
                     </div>
                     <p>
                       Main: +254 702-845-341 <br /> Office: +254 702-845-341
                     </p>
                   </div>
-                  <div class="single-contact-info d-flex">
-                    <div class="contact-icon mr-15">
+                  <div className="single-contact-info d-flex">
+                    <div className="contact-icon mr-15">
                       <img src="img/core-img/message.png" alt="" />
                     </div>
                     <p>blocks@eosnairobi.io</p>
                   </div>
-                  <div class="contact-social-info mt-50">
+                  <div className="contact-social-info mt-50">
                     <a href="#">
-                      <i class="fa fa-pinterest" aria-hidden="true" />
+                      <i className="fa fa-pinterest" aria-hidden="true" />
                     </a>
                     <a href="#">
-                      <i class="fa fa-facebook" aria-hidden="true" />
+                      <i className="fa fa-facebook" aria-hidden="true" />
                     </a>
                     <a href="#">
-                      <i class="fa fa-twitter" aria-hidden="true" />
+                      <i className="fa fa-twitter" aria-hidden="true" />
                     </a>
                     <a href="#">
-                      <i class="fa fa-dribbble" aria-hidden="true" />
+                      <i className="fa fa-dribbble" aria-hidden="true" />
                     </a>
                     <a href="#">
-                      <i class="fa fa-behance" aria-hidden="true" />
+                      <i className="fa fa-behance" aria-hidden="true" />
                     </a>
                     <a href="#">
-                      <i class="fa fa-linkedin" aria-hidden="true" />
+                      <i className="fa fa-linkedin" aria-hidden="true" />
                     </a>
                   </div>
                 </div>

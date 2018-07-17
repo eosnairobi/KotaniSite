@@ -4,14 +4,14 @@ class Subscription extends Component {
   render() {
     return (
       <section
-        class="mosh-subscribe-newsletter-area bg-img bg-overlay-white section_padding_100"
+        className="mosh-subscribe-newsletter-area bg-img bg-overlay-white section_padding_100"
         style={{ backgroundImage: "url(img/bg-img/sub-1.jpg)" }}
       >
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
               <div
-                class="subscribe-newsletter-content text-center wow fadeIn"
+                className="subscribe-newsletter-content text-center wow fadeIn"
                 data-wow-delay="0.5s"
               >
                 <p>give us a shout</p>

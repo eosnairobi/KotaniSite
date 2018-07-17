@@ -4,20 +4,20 @@ import PropTypes from "prop-types";
 const Breadcrumb = ({ title, description }) => {
   return (
     <div
-      class="mosh-breadcumb-area"
+      className="mosh-breadcumb-area"
       style={{ backgroundImage: "url(img/core-img/breadcumb.png)" }}
     >
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12">
-            <div class="bradcumbContent">
+      <div className="container h-100">
+        <div className="row h-100 align-items-center">
+          <div className="col-12">
+            <div className="bradcumbContent">
               <h2>{title}</h2>
               <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item">
+                <ol className="breadcrumb">
+                  <li className="breadcrumb-item">
                     <a href="#">Home</a>
                   </li>
-                  <li class="breadcrumb-item active" aria-current="page">
+                  <li className="breadcrumb-item active" aria-current="page">
                     {description}
                   </li>
                 </ol>
