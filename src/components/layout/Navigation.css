@@ -3,3 +3,112 @@ h3 {
   height: auto;
   color: ivory;
 }
+
+/* --------------------------
+:: 2.0 Header Area CSS
+-------------------------- */
+
+.header_area {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  padding: 0 15px;
+  height: 120px;
+  background-color: transparent;
+  -webkit-transition-duration: 700ms;
+  transition-duration: 700ms;
+}
+
+.menu_area {
+  position: relative;
+  z-index: 2;
+}
+
+.menu_area #nav .nav-link {
+  color: #fff;
+  display: block;
+  font-size: 15px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  padding: 0 15px;
+}
+
+.menu_area .dropdown-menu.show {
+  border: none;
+  box-shadow: 3px 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.menu_area .dropdown-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #9597a6;
+}
+
+.menu_area #nav .nav-link:hover,
+.menu_area #nav .nav-item.active .nav-link,
+.menu_area .dropdown-item:hover {
+  color: #4a7aec;
+}
+
+.login-register-btn a {
+  color: #4a7aec;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.login-register-btn a:hover {
+  color: #fff;
+}
+
+.search-button > a {
+  margin: 0 80px;
+}
+
+.navbar-nav {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+/* Search Form CSS */
+
+.search-form-area {
+  width: auto;
+  height: 50px;
+  display: none;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+.search-form-open .search-form-area {
+  display: block !important;
+}
+
+.search-form-open .navbar-nav {
+  display: none !important;
+}
+
+.search-form-area #search {
+  width: 550px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  padding: 0 30px;
+  color: #fff !important;
+  font-size: 14px;
+  background-color: transparent;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+}
+
+/* Sticky CSS */
+
+.header_area.sticky {
+  background-color: #25499f;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
