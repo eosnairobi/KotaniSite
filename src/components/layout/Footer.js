@@ -43,7 +43,7 @@ const Footer = () => {
                   <div class="contact-icon">
                     <img src="img/core-img/map.png" alt="" />
                   </div>
-                  <p>Bithub Africa, Timau Plaza, Nairobi.</p>
+                  <p>104 Lower Kabete Rrd, Nairobi.</p>
                 </div>
                 <div class="footer-single-contact-info d-flex">
                   <div class="contact-icon">

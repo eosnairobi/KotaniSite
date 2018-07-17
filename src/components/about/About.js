@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Breadcrumb from "../common/BreadCrumb";
+import Subscription from "../CTA/Subscription";
 
 class About extends Component {
   render() {
@@ -16,16 +17,14 @@ class About extends Component {
                     <h2>What you get if you start your business with us</h2>
                   </div>
                   <p>
-                    Etiam nec odio vestibulum est mattis effic iturut magna.
-                    Pellentesque sit am et tellus blandit. Etiam nec odio
-                    vestibul. Etiam nec odio vestibulum est mat tis effic iturut
-                    magna. Pellentesque sit amet tellus blandit. Etiam nec odio
-                    ves tibul. Nec odio vestibulum est mattis effic iturut
-                    magna. Pellente sque sita met tellus blandit. Etiam nec
-                    odio. Etiam nec odio vestibulum est mattis effic iturut
-                    magna. Pellentesque sit am et tellus blandit. Etiam nec odio
-                    vestibul. Etiam nec odio vestibulum est mat tis effic iturut
-                    magna.
+                    Based in Nairobi Kenya (East Africa), Kotani is a strong and
+                    vibrant community made up of individuals with different
+                    backgrounds who believe that blockchain technology will
+                    drive the future. A future where tools of wealth creation
+                    are decentralized and accessible to many, a future of
+                    transparency and accountability, a future where individuals
+                    and groups can participate in making the world a better
+                    place on an incentivized platform.
                   </p>
                   <a href="#" class="btn mosh-btn mt-50">
                     Read More
@@ -181,6 +180,7 @@ class About extends Component {
             style={{ backgroundImage: "url(img/bg-img/cta-2.jpg)" }}
           />
         </section>
+        <Subscription />
       </div>
     );
   }
