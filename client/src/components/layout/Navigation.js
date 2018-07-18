@@ -59,6 +59,10 @@ class Navigation extends Component {
                         </Link>
                       </li>
                     </ul>
+                    <div class="login-register-btn">
+                      <a href="#">Login</a>
+                      <a href="#">/ Register</a>
+                    </div>
                   </div>
                 </nav>
               </div>
